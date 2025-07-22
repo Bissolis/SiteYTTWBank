@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="PT-br" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imagens/gold.png" type="png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+<body>
+  <!-- perfil pessoal -->
+    <div class="profile">
+      <h1 class="nick">Bem-Vindo novamente <span style="color: magenta;">ADM SUPREMO !</span><br> <span style="color: magenta; font-weight: 450; font-size: 24px;"><i><img src="imagens/rank imortal.png" alt="rank" class="rankimortal"></i> Imortal</span></h1>
+    </div>
+  <!---->
+
+  <!-- tabela de seu rank -->
+    <div class="table">
+      <h1 class="title-rank"><i><img src="imagens/rank imortal.png" class="rankimortal"></i> Rank Atual <i><img src="imagens/rank imortal.png" class="rankimortal"></i></h1>
+      <img src="imagens/rank imortal.png" class="rank-demo">
+      <p class="rank-text">Rank Imortal</p>
+      <p class="rank-description">apenas ADM's podem possuir esse rank</p>
+      <p class="description">não é possivel evoluir esse rank, você possui o mais alto cargo dentre os outros empreendedores</p>
+        <div class="bar-container">
+          <div class="bar"></div>
+          <p class="q00kks" style="right: 3%;">500kks</p>
+          <p class="q00kks" style="left: 3%;">500kks</p>
+        </div>
+    </div>
+  <!--  -->
+
+  <!-- investimentos -->
+    <div class="investment">
+      <h1 class="title-invest"><i><img src="imagens/rucoy coin.png" class="icon-gold" style="transform: translate(-40px, 5px);"></i> Investimentos <i><img src="imagens/rucoy coin.png" class="icon-gold" style="transform: translate(10px, 5px);"></h1>
+        <p class="investdescription">você não possui gold investo, você é o ADM</p>
+          <div class="barinvest"></div>
+    </div>
+  <!--  -->
+</body>
+<style>
+@media (min-width: 62rem) {
+  body{
+  height: 100dvh;
+  background: linear-gradient(35deg, #161616 70%, #66a1ff 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  color: white;
+}
+  .profile{
+    width: 60%;
+    height: 20%;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10%;
+    left: 3%;
+  }
+  .table{
+    width: 30%;
+    height: 80%;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: auto;
+    right: 3%;
+  }
+  .investment{
+    width: 60%;
+    height: 50%;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-28%, 0%);
+    bottom: 10%;
+  }
+  .nick{
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    line-height: 2;
+  }
+  .rankimortal{
+    width: 22px;
+    transform: translate(0, 2px);
+  }
+  .title-rank{
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 3%;
+  }
+  .rank-demo{
+    width: 26%;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+  }
+  .rank-text{
+    color: magenta;
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    top: 20%;
+    right: 20%;
+    text-align: center;
+  }
+  .rank-description{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    text-align: justify;
+    width: 200px;
+    top: 26%;
+    right: 10%;
+  }
+  .description{
+    font-size: 20px;
+    position: absolute;
+    text-align: justify;
+    width: 80%;
+    top: 50%;
+  }
+  .bar-container{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top: 70%;
+  }
+  .bar{
+    width: 100%;
+    position: absolute;
+    height: 25%;
+    background: magenta;
+    border-radius: 10px;
+    bottom: 10%;
+  }
+  .q00kks{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    bottom: 30%;
+  }
+  .title-invest{
+    font-size: 25px;
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    top: 3%;
+  }
+  .barinvest{
+    width: 90%;
+    position: absolute;
+    height: 15%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    bottom: 15%;
+    left: 5%;
+  }
+  .investdescription{
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    transform: translate(-50%, -100%);
+  }
+  .icon-gold{
+    position: absolute; 
+    width: 30px;
+  }
+}
+@media (max-width: 50rem) {
+  body{
+  height: 50rem;
+  background: linear-gradient(35deg, #161616 70%, #66a1ff 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  color: white;
+}
+    .profile{
+    width: 300px;
+    height: 100px;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+  }
+  .table{
+    width: 300px;
+    height: 400px;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8rem;
+  }
+  .investment{
+    width: 300px;
+    height: 200px;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35rem;
+  }
+  .nick{
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    line-height: 1.6;
+  }
+  .rankimortal{
+    width: 18px;
+    transform: translate(0, 2px);
+  }
+  .title-rank{
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 3%;
+  }
+  .rank-demo{
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+  }
+  .rank-text{
+    color: magenta;
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    top: 15%;
+    right: 20%;
+    text-align: center;
+  }
+  .rank-description{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    text-align: justify;
+    font-weight: 600;
+    width: 180px;
+    top: 26%;
+    right: 10%;
+  }
+  .description{
+    font-size: 16px;
+    position: absolute;
+    text-align: justify;
+    width: 80%;
+    top: 50%;
+  }
+  .bar-container{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top: 70%;
+  }
+  .bar{
+    width: 100%;
+    position: absolute;
+    height: 25%;
+    background: magenta;
+    border-radius: 10px;
+    bottom: 10%;
+  }
+  .q00kks{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    bottom: 30%;
+  }
+  .title-invest{
+    font-size: 16px;
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    top: 3%;
+  }
+  .barinvest{
+    width: 90%;
+    position: absolute;
+    height: 15%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    bottom: 15%;
+    left: 5%;
+  }
+  .investdescription{
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    transform: translate(-50%, -100%);
+  }
+  .icon-gold{
+    position: absolute; 
+    width: 20px;
+  }
+}
+@media (min-width: 50rem) and (max-width: 62rem){
+  body{
+  height: 50rem;
+  background: linear-gradient(35deg, #161616 70%, #66a1ff 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  color: white;
+}
+    .profile{
+    width: 600px;
+    height: 100px;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+  }
+  .table{
+    width: 600px;
+    height: 450px;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 7.8rem;
+  }
+  .investment{
+    width: 600px;
+    height: 200px;
+    background: #2c2c2c;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 37rem;
+  }
+  .nick{
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    line-height: 1.6;
+  }
+  .rankimortal{
+    width: 20px;
+    transform: translate(0, 2px);
+  }
+  .title-rank{
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 3%;
+  }
+  .rank-demo{
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+  }
+  .rank-text{
+    color: magenta;
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    top: 15%;
+    right: 35%;
+    text-align: center;
+  }
+  .rank-description{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    text-align: justify;
+    font-weight: 600;
+    width: 280px;
+    top: 26%;
+    right: 20%;
+  }
+  .description{
+    font-size: 18px;
+    position: absolute;
+    text-align: justify;
+    width: 80%;
+    top: 50%;
+  }
+  .bar-container{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top: 70%;
+  }
+  .bar{
+    width: 100%;
+    position: absolute;
+    height: 25%;
+    background: magenta;
+    border-radius: 10px;
+    bottom: 10%;
+  }
+  .q00kks{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    bottom: 30%;
+  }
+  .title-invest{
+    font-size: 20px;
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    top: 3%;
+  }
+  .barinvest{
+    width: 90%;
+    position: absolute;
+    height: 15%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    bottom: 15%;
+    left: 5%;
+  }
+  .investdescription{
+    font-size: 14px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    transform: translate(-50%, -100%);
+  }
+  .icon-gold{
+    position: absolute; 
+    width: 25px;
+  }
+}
+</style>
+<script>
+
+</script>
+</html>
